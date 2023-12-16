@@ -10,8 +10,8 @@
             <div class="bg-white dark:bg-gray-800 overflow-hidden shadow-sm sm:rounded-lg">
                 <div class="p-6 text-gray-900 dark:text-gray-100">
 
-                    <x-primary-button tag="a" href="{{ route('book.create') }}">Tambah Buku</x-primary-button>
-                    <x-primary-button tag="a" href="{{ route('book.print')}}" target='blank'>Cetak</x-primary-button>
+                    <x-primary-button tag="a" href="{{ route('book.create') }}">Tambah Data Buku</x-primary-button>
+                    <x-primary-button tag="a" href="{{ route('book.print')}}" target='blank'>Cetak PDF</x-primary-button>
                     <x-primary-button tag="a" href="{{ route('book.export')}}" target="_blank">Export</x-primary-button>
                     <x-primary-button
                         x-data=""
@@ -21,7 +21,7 @@
                         <x-slot name="header">
                             <tr class="py-10">
                                 <th scope="col">#</th>
-                                <th scope="col">Judul</th>
+                                <th scope="col">Title</th>
                                 <th scope="col">Penulis</th>
                                 <th scope="col">Tahun</th>
                                 <th scope="col">Penerbit</th>

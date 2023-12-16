@@ -26,11 +26,12 @@ class BooksExport implements FromArray, WithHeadings, ShouldAutoSize
     public function headings(): array
     {
         return [
-            'No',
-            'Judul',
-            'Penulis',
-            'Tahun',
-            'Penerbit'
-        ];
+            'title',
+            'author',
+            'year',
+            'publisher',
+            'city',
+            'quantity',
+            'bookshelf_id'         ];
     }
 }
